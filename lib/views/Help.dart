@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+class Help extends StatelessWidget {
+  const Help({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('Help Screen'),
+      ),
+      body: const Center(
+          child: Text(
+        'Help Screen',
+        style: TextStyle(
+          fontSize: 25,
+          fontFamily: 'BebasNeue',
+        ),
+      )),
+    );
+  }
+}
